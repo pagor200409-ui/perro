@@ -1,11 +1,15 @@
 {
-  "name": "pawtrack",
+  "name": "pawtrack-2-cloudflare-neon",
   "version": "2.0.0",
   "private": true,
+  "description": "Pawtrack 2.0 - Sistema de monitoreo y ubicacion para mascotas en Cloudflare Pages con PostgreSQL en Neon",
   "scripts": {
-    "build": "echo \"Static assets ready\""
+    "dev": "wrangler pages dev . --port 8788"
   },
   "dependencies": {
     "@neondatabase/serverless": "^0.10.4"
+  },
+  "devDependencies": {
+    "wrangler": "^3.99.0"
   }
 }
